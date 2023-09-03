@@ -1,5 +1,10 @@
 import {
     mobile,
+    android,
+    kotlin,
+    firebase,
+    mysql,
+    java,
     backend,
     creator,
     web,
@@ -23,6 +28,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    php,
   } from "../assets";
   
   export const navLinks = [
@@ -61,6 +67,18 @@ import {
   
   const technologies = [
     {
+      name: "Android",
+      icon: android,      
+    },
+    {
+      name: "Kotlin",
+      icon: kotlin,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -73,32 +91,24 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
+      name: "PHP",
+      icon: php,
     },
     {
       name: "Redux Toolkit",
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MySql",
+      icon: mysql,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
     },
     {
       name: "git",
@@ -107,10 +117,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

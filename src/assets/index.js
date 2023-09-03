@@ -8,6 +8,12 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import android from "./tech/android.png";
+import mysql from "./tech/mysql.png";
+import php from "./tech/php.png";
+import firebase from "./tech/firebase.png";
+import kotlin from "./tech/kotlin.png";
+import java from "./tech/java.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -33,6 +39,12 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
+  android,
+  kotlin,
+  php,
+  firebase,
+  mysql,
+  java,
   creator,
   mobile,
   web,

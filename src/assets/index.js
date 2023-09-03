@@ -37,7 +37,7 @@ import bangkit from "./company/bangkit.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import intplan from "./intPlan.png";
+import intplan from "./intplan.png";
 import isyaratku from "./isyaratku.png";
 import disaster from "./disaster-tracker.png";
 import tripguide from "./tripguide.png";

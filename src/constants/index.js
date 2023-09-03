@@ -8,9 +8,14 @@ import {
     backend,
     creator,
     web,
+    isyaratku,
     javascript,
     typescript,
+    intplan,
     html,
+    bangkit,
+    goto,
+    pln,
     css,
     reactjs,
     redux,
@@ -29,6 +34,7 @@ import {
     tripguide,
     threejs,
     php,
+    disaster,
   } from "../assets";
   
   export const navLinks = [
@@ -122,55 +128,36 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "IT Engineering (Internship)",
+      company_name: "PT PLN (Persero) UP 3 Makassar Utara",
+      icon: pln,
+      iconBg: "#FFFFFF",
+      date: "Jun 2021 - Dec 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Build an application project 'IntPlan (Inspection to Platinum)' tool to facilitate the implementation and monitoring of customer sampling according to DLPD, TO and LBKB. The data is integrated with data spreadsheet PLN-UP3 Makassar",
+        "Creating a chatbot that is integrated with the Whatsapp application to help employees get detailed customer information that they want to check the electric meter in location.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Mobile Development Android",
+      company_name: "Bangkit Academy led by Google, GoTo, & Traveloka",
+      icon: bangkit,
+      iconBg: "#FFFFFF",
+      date: "Feb 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Build several Android application with applied MVVM Architecture pattern and using Kotlin as a programming language.",
+        "Collaborating with Machine Learning path and Cloud Computing path to create product-base capstone project.",
+        "Build an AUDI (Autism Detection for Children) application for Product-based Capstone project.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Mobile Engineering Android (Apprenticeship)",
+      company_name: "GoTo Impact Foundation",
+      icon: goto,
+      iconBg: "#FFFFFF",
+      date: "Jun 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Build a Disaster Tracker designed to track natural disasters, such as floods, earthquakes, fires, and volcanic eruptions, in Indonesia. The concept used in this application uses the MVVM Design Pattern, S.O.L.I.D Principle and using Dagger Hilt.",
       ],
     },
   ];
@@ -204,67 +191,71 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Intplan",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Intplan (Inspection to Platinum) is a tools to facilitate implementation and monitoring customer sampling according to DLPD, TO, and LBKB on PLN UP 3 Makassar Utara.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "kotlin",
+          color: "white-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "typescript",
+          color: "white-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "mvvm",
+          color: "white-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: intplan,
+      source_code_link: "https://github.com/raflisalam/PLN_IntPlan",
     },
     {
-      name: "Job IT",
+      name: "Isyaratku",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Isyaratku is a real-time Indonesian Sign Language translator application using the YOLOv5 method, designed to assist who struggle to understand sign language's.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "kotlin",
+          color: "white-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "YOLOv5",
+          color: "white-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "object-detection",
+          color: "white-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: isyaratku,
+      source_code_link: "https://github.com/raflisalam/Isyaratku",
     },
     {
-      name: "Trip Guide",
+      name: "Disaster Tracker",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Disaster tracker is an application designed to track natural disasters, such as floods, earthquakes, fires, and volcanic eruptions, in Indonesia.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "kotlin",
+          color: "white-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "hilt",
+          color: "white-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "mvvm",
+          color: "white-text-gradient",
+        },
+        {
+          name: "clean-architecture",
+          color: "white-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: disaster,
+      source_code_link: "https://github.com/GG-3-0-Mobile-Engineering/ME15-DisasterApps-GG3MEGP0582-MuhammadRafliSalam",
     },
   ];
   

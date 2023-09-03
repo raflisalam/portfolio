@@ -31,9 +31,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import pln from "./company/pln.png";
+import goto from "./company/goto.png";
+import bangkit from "./company/bangkit.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import intplan from "./intPlan.png";
+import isyaratku from "./isyaratku.png";
+import disaster from "./disaster-tracker.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -42,6 +48,9 @@ export {
   android,
   kotlin,
   php,
+  intplan,
+  isyaratku,
+  disaster,
   firebase,
   mysql,
   java,
@@ -68,6 +77,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  goto,
+  bangkit,
+  pln,
   carrent,
   jobit,
   tripguide,

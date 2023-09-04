@@ -6,10 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
-//rPE5DvfZgyEqusIhj
-//email template template_adffxx6
-//service_rkcebay
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -78,6 +77,18 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <div className="flex gap-4 mt-4">
+          <a href="https://github.com/raflisalam" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={32} color="white" />
+          </a>
+          <a href="https://www.instagram.com/raflisalam/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={32} color="white" />
+          </a>
+          <a href="https://www.linkedin.com/in/raflisalam/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={32} color="white" />
+          </a>
+        </div>
 
         <form
           ref={formRef}

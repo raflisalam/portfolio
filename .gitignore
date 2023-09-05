@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 .vercel
+src/assets/me.svg
+
